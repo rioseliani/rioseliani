@@ -1,0 +1,46 @@
+# Site settings
+title:          ᲑᲚᲝᲒᲘ
+description:    "მინიმალური Jekyll blog-ის თემა"
+baseurl:
+url:
+
+# https://jekyllrb.com/docs/configuration/options/
+timezone: Asia/Tbilisi
+
+# Google Analytics
+google_analytics:
+
+# Author
+author:
+  name:         ავთო ფანგანი
+  url:          https:/blog.din.ge
+  email:        blog@din.ge
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     /assets/css/_sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
+
+# Permalinks
+permalink:      /:title
+paginate:       5
+
+# Excludes
+exclude:
+  - README.md
+  - LICENSE.md
+
+# Disqus (Set to your disqus id)
+disqus:
