@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <div class="post-info">
-    <span>Written by</span>
+    <span>ავტორი</span>
     {% if page.author %}
         {{ page.author }}
     {% else %}
@@ -14,7 +14,7 @@ layout: default
     {% if page.date and page.showlastmod %}
       <br>
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      <span> and last updated on&nbsp;</span><time datetime="{% last_modified_at %}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>
+      <span> განახლებულია &nbsp;</span><time datetime="{% last_modified_at %}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>
     {% elsif page.date %}
       <br>
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
