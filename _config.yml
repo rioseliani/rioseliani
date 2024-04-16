@@ -12,9 +12,9 @@ google_analytics:
 
 # Author
 author:
-  name:         ავთო ფანგანი
-  url:          https:/blog.din.ge
-  email:        blog@din.ge
+  name:         რუსუდან იოსელიანი
+  url:          https://rusudan.din.ge
+  email:        rusudan@din.ge
 
 # Build settings
 markdown:       kramdown
