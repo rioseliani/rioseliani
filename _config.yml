@@ -1,8 +1,8 @@
 # Site settings
 title:          ᲑᲚᲝᲒᲘ
 description:    "რუსუდან იოსელიანის ბლოგი"
-baseurl:
-url:
+baseurl: ""
+url: ""
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: Asia/Tbilisi
